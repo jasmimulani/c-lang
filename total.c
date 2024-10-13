@@ -8,7 +8,7 @@
 	total = total+i;
 	printf("%d", i);
 	}
-  	printf("total is %d",total);
+  	printf("total is :%d",total);
 	return i,total;
  }
   void  main(){

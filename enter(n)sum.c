@@ -1,15 +1,15 @@
 #include<stdio.h>
-  int loop11()
+  int loop10()
 {
  int i,n,total=0;
-	printf("enter value");
+	printf("enter value:");
 	scanf("\t%d",&n);
-	for(i=2; i<=10; i+=2){
+	for(i=1; i<=10; i++){
 	total=total+i;
 	printf("%d",i);
 	}
-	printf("\n total is %d",total);
+	printf("\n total is :%d",total);
 }
  void main(){
-	loop11();
+	loop10();
 }
