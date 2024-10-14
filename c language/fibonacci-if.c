@@ -20,7 +20,7 @@ int fib(int n)
 		printf("entere a number");
 		scanf("%d", &j);
 		for(i=0; i<j; i++){
-		printf("t%d",fib(i));
+		printf("%d",fib(i));
 		}
 	
 }

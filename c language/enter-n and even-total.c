@@ -2,7 +2,7 @@
 void main()
 {
    int i=1,n, total=0;
-   printf("enter a any number");
+   printf("enter a any number:");
    scanf("%d",&n);
    while(i<=n){
 
